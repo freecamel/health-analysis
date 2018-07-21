@@ -1,7 +1,6 @@
 {
   "version": "0.2.0",
-  "configurations": [
-    {
+  "configurations": [{
       "type": "node",
       "request": "launch",
       "name": "Debug Project",
@@ -9,7 +8,7 @@
       "cwd": "${workspaceFolder}/build",
       // Replace this with your project root. If there are multiple, you can
       // automatically run the currently visible file with: "program": ${file}"
-      "program": "${workspaceFolder}/src/cli/cli.ts",
+      "program": "${file}",
       // "args": ["--no-install"],
       "outFiles": ["${workspaceFolder}/build/main/**/*.js"],
       "skipFiles": [
@@ -47,5 +46,6 @@
       // "preLaunchTask": "npm: build",
       // "smartStep": true,
       "runtimeArgs": ["--nolazy"]
-    }]
+    }
+  ]
 }

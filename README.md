@@ -1,3 +1,3 @@
 # health-analysis
 
-package for analysing health data
+package for analyzing health data
